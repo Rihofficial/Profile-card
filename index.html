@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" class="profile-card">
+        <div class="container">
+            <div class="bg-top"></div>
+            <div class="profile-header">
+         <figure class="avatar">
+          <img
+            src="./image//WhatsApp Image 2025-10-12 at 19.38.11_b45f4f19.jpg"
+            alt="Profile picture of  Timothy"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-info">
+          <h2 data-testid="test-user-name">Dev_Riho</h2>
+          <div class="time-container inline">
+            <span class="label">Current Time (ms):</span>
+            <span data-testid="test-user-time" id="currentTime"></span>
+          </div>
+        </div>
+      </div>
+        </div>
+
+      <p data-testid="test-user-bio" class="intro-text">Passionate full-stack developer focused on building smart, responsive, and accessible web applications. Continuously learning and improving my skills across frontend and backend development to create impactful digital experiences.
+      </p>
+
+        
+
+    
+        <nav
+          data-testid="test-user-social-links"
+          aria-label="User social links"
+          class="social-links"
+        >
+          <h4>Connect with me</h4>
+          <ul>
+            <li>
+              <a
+                href="https://x.com/Dev_Riho"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Rihofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abejoye-timothy-36b6b9161/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="lists">
+          <section class="list-card">
+            <h4>❤️ Hobbies</h4>
+            <ul data-testid="test-user-hobbies">
+              <li>Video games</li>
+              <li>Coding</li>
+              <li>Football</li>
+              <li>Listening to music</li>
+              <li>Watching movies</li>
+            </ul>
+          </section>
+
+          <section class="list-card">
+            <h4>👎 Dislikes</h4>
+            <ul data-testid="test-user-dislikes">
+              <li>Traffic jams</li>
+              <li>Poorly written code</li>
+              <li>Houseflies</li>
+              <li>Loud chewing</li>
+              <li>Spam emails</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
