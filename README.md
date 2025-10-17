@@ -15,6 +15,6 @@ All elements include `data-testid` attributes for automated testing.
 
 ### 📂 Run Locally
 ```bash
-git clone https://github.com/yourusername/profile-card-stage0.git
+git clone https://github.com/Rihofficial/Profile-card
 cd profile-card
 # open index.html in browser
